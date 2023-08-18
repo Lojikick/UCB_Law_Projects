@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+
+  
+<body>
+
+<div id="container">
+    <div id="header">
+
+        <div id="monthDisplay"></div>
+        <div>
+            <button id="backButton">Back</button>
+            <button id="nextButton">Next</button>
+        </div>
+    </div>
+    <div id="weekdays" class = "same-line">
+        <div id="Sunday"><h3>Sunday</h3></div>
+        <div id="Monday"><h3>Monday</h3></div>
+        <div id="Tuesday"><h3>Tuesday</h3></div>
+        <div id="Wednesday"><h3>Wednesday</h3></div>
+        <div id="Thursday"><h3>Thursday</h3></div>
+        <div id="Friday"><h3>Friday</h3></div>
+        <div id="Saturday"><h3>Saturday</h3></div>
+    </div>
+    <div id="calendar"></div>
+    <div id="row_1"></div>
+    <div id="row_2"></div>
+    <div id="row_3"></div>
+    <div id="row_4"></div>
+    <div id="row_5"></div>
+
+    <button id="butt" class = "temp">Clicketh</button>
+
+    <!-- The Modal -->
+    <div id="myModal" class="modal">
+
+    <!-- Modal content -->
+        <div class="modal-content">
+            <h2>New Event</h2>
+            <input id="eventTitleInput" placeholder="Event Title" />
+            <button id="saveButton"> Save </button>
+            <button id="cancelButton"> Cancel </button>
+        </div>
+  
+    </div>
+
+    <div id = "deleteModal" class="modal">
+        <div class="modal-content">
+            <h2>Event</h2>
+            <p id="eventText"></p>
+            <button id="deleteButton">Delete</button>
+            <button id="closeButton">Close</button>
+        </div>
+    </div>
+    
+</div>
+
+<script src="app.js"></script>
+
+</body>
+
+</html>
